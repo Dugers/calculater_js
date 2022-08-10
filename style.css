@@ -35,6 +35,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 1s;
+}
+.calculater__actions:hover, .calculater__numbers:hover {
+  background-color: rgb(29, 28, 28);
 }
 .calculater__result {
   border: 3px solid rgba(29, 29, 29, 0.2);

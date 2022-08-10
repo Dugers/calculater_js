@@ -1,0 +1,45 @@
+@import url("reset.css");
+body {
+  font-family: Arial;
+  font-size: 2rem;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.container {
+  padding: 0 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculater {
+  width: 600px;
+  padding: 30px;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px repeat(5, 50px);
+}
+.calculater__result {
+  overflow: auto;
+  -ms-overflow-style: none;
+  grid-column: 1/5;
+}
+.calculater__result::-webkit-scrollbar {
+  width: 0;
+}
+.calculater__actions, .calculater__numbers {
+  border: 3px solid rgba(29, 29, 29, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculater__result {
+  border: 3px solid rgba(29, 29, 29, 0.2);
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  padding-left: 30px;
+}/*# sourceMappingURL=style.css.map */
